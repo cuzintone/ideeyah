@@ -61,8 +61,26 @@ h6 {
     
 }
 
+.intro {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    background: url(../img/ideeyah_card_001.jpg) no repeat bottom center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+@media(min-width:767px) {
+    .intro {
+        height: 100%;
+        padding: 0;
+    }
+}
 .intro .slogan {
-	padding:415px 0 60px;
+	padding:100px 0;
 	text-align: center;
 	
 }
