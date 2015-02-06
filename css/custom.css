@@ -1,0 +1,154 @@
+
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+/*body{padding-top:50px;}.starter-template{padding:40px 15px;text-align:center;}*/
+body {background-image: url(../img/ideeyah_card_001.jpg);
+	background-size: cover;}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 30px;
+    text-transform: uppercase;
+    font-family: Montserrat,sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+/* ===========================
+--- General sections
+============================ */
+
+.home-section {
+    padding-top: 110px;
+    padding-bottom: 110px;
+	display:block;
+    position:relative;
+    z-index:120;
+}
+
+
+.section-heading h2 {
+	font-size: 40px;
+}
+.section-heading i {
+	margin-bottom: 20px;
+}
+.container-fluid {
+    height: 100%;
+    display: table;
+    width: 100%;
+    padding: 0;
+}
+
+.row-fluid {
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.centering {
+    float:none;
+    margin:0 auto;
+}
+
+#intro {
+    
+}
+
+.intro .slogan {
+	padding:415px 0 60px;
+	text-align: center;
+	
+}
+.intro .slogan h1 {
+	color: #fff;
+	line-height: 1.1em;
+	margin-bottom: 20px;
+	 font-size: 40px;
+}
+.intro .slogan p {
+	color: #eee;
+	margin-bottom: 50px;
+	font-size: 20px;
+}
+
+.contactinfo {
+    color: #3873ae;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: montserrat, sans-serif;
+    text-align: center;
+    width: 50%;
+}
+.emailform {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 450px;
+}
+
+.emailform .email {
+    width: 350px;
+}
+.socialmedia {
+	margin-left: auto;
+    margin-right: auto;
+    display: block;
+	padding-left: 0;
+	margin-top: 10px;
+/*	text-align: left;*/
+    font-size: 20pt;
+    width: 250px;
+}
+
+.socialmedia li{
+    display: inline-block;
+	margin:0 !important;
+	padding:0;
+}
+
+
+.socialmedia a{
+	margin:0;
+	padding:0;
+    display: block;
+	width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #3bbec0;
+	color: #fff;
+    -webkit-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+
+.socialmedia a i{
+	text-align: center;
+	margin:0;
+	padding:0;
+}
+.socialmedia .social-facebook a{background: #3873ae;}
+.socialmedia .social-twitter a{background: #62c6f8;}
+.socialmedia .social-dribble a{background: #d74980;}
+.socialmedia .social-youtube a{background: #cc181e;}
+.socialmedia .social-soundcloud a{background:#eb5d1e;}
+.socialmedia .social-instagram a{background: #115286;}
+.socialmedia .social-deviantart a{background: #8da356;}
+.socialmedia .social-google a{background: #000;}
+.socialmedia .social-vimeo a{background: #51a6d3;}
+.socialmedia .social-facebook a:hover{background: #4893ce;}
+.socialmedia .social-twitter a:hover{background: #82e6ff;}
+.socialmedia .social-youtube a:hover{background: #e64c38;}
+.socialmedia .social-soundcloud a:hover{background: rgba(255, 72, 0, .8);}
+.socialmedia .social-instagram a:hover{background:#517fa4;}
+.socialmedia .social-dribble a:hover{background: #f769a0;}
+.socialmedia .social-deviantart a:hover{background: #adc376;}
+.socialmedia .social-google a:hover{background: #333;}
+.socialmedia .social-vimeo a:hover{background: #71c6f3;}
